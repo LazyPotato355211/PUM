@@ -12,7 +12,7 @@ fun trojkat (n : Int){
             for(j in 0..i){
     
                 if(j==0 || j==i){
-                    liczba[i][j] = 1
+                    liczba[i][j]=1
                 } 
                 else {
                     liczba[i][j] = liczba[i-1][j-1] + liczba[i-1][j]
