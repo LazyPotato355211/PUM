@@ -1,3 +1,7 @@
 fun main(){
-    println(tp(15))
+    countVowels("")
+}
+
+fun countVowels(word : String){
+
 }

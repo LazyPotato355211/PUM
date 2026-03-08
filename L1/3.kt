@@ -1,6 +1,7 @@
 fun main(){
     trojkat(10)
 }
+
 fun trojkat (n : Int){
     val liczba = Array(n) {IntArray(n)}
 
