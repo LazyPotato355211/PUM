@@ -1,22 +1,17 @@
 fun main(){
-    pierwsza(12)
-    pierwsza(7)
+    println(pierwsza(12))
 
 }
 
-fun pierwsza(num : Int){
-    if (num <= 1) {
-        println("$num nie jest liczba pierwsza")
-    }
-
-    var sum = 0
+fun pierwsza(num : Int):Boolean{
+    if (num < 2) return false
+ 
     for(i in 1 until num){
         if(num%i == 0){
-            sum += i }
+            return false }
     }
-    if (sum == 1) { 
-        println("$num to liczba pierwsza")}
-    else {
-        println("$num to nie jest liczba pierwsza")}
+    return true
         
 }
+
+
